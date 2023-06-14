@@ -211,7 +211,7 @@
                         <div class="form-group">
                             <label for="phone-number">Phone number</label>
                             <input type="text" placeholder="Phone number..." name="phone-number" id="phone-number">
-                            @error('phone_number')
+                            @error('phone-number')
                                 <div class="error">
                                     <p>{{ $message }}</p>
                                 </div>
